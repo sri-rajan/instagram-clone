@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+
+/*container*/
+.storycontainer{
+    width:400px;
+    height: 600px;
+    margin:0px auto;
+    text-align: left;
+    border:1px solid white;
+    background-color: black;
+}
+
+/*tophead*/
+#head{
+    position:fixed;
+    top:0px;
+    background-color:black;
+    width:400px;
+    height:15px;
+}
+/*top*/
+.nav{
+    padding:20px;
+}
+#flash{
+    margin:0px 110px 0px 110px;
+}
+
+/*side*/
+.sidebar{
+    color:white;
+    position: absolute;
+    top:150px;
+    padding-left: 20px;
+}
+#aa{
+    font-size: 2em;
+    margin-right: 15px;
+}
+#boomerang{
+    font-size:2em;
+    margin-right:35px;
+}
+#coll{
+    margin-top: 30px;
+    margin-right: 27px;
+}
+#down{
+    margin-top:30px;
+}
+/*cameraplace*/
+.cameraplace{
+    position:absolute;
+    bottom:80px;
+    margin-left: 170px;
+}
+#camclick{
+    width:59px;
+    height:59px;
+    border-radius: 59px;
+    padding: 2px;
+    margin-right:15px;
+    border:2px solid white;
+}
+.cameraplace img{
+    width:48px;
+    height:48px;
+    border-radius: 48px;
+    margin-right:20px;
+}
+
+/*lastline*/
+.last{
+    display: inline-flex;
+    position:absolute;
+    bottom:10px;
+    padding: 0px 10px;
+    color:white;
+}
+.last img{
+    width:40px;
+    height:40px;
+    border-radius: 12px;
+    margin-right: 49px;
+}
+.last p{
+    margin:0px 15px;
+}
+.last :nth-child(2),:nth-child(4){
+    color:gray;
+    font-size: 0.9em;
+}
+.last svg{
+    margin-left: 30px;
+}
+ 
+/*very last */
+#menu{
+    background-color:black;
+    width:401px;
+    position:fixed;
+    bottom:0px;
+    height:10px;
+    margin:0 auto;
+}
